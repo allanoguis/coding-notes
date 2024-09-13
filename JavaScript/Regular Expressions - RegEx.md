@@ -6,13 +6,14 @@
 2. [Creating Regular Expressions](#creating-regular-expressions)
 3. [Regular Expression Methods](#regular-expression-methods)
 4. [Regular Expression Syntax](#regular-expression-syntax)
-   - [Basic Characters](#basic-characters)
-   - [Quantifiers](#quantifiers)
-   - [Special Characters](#special-characters)
-   - [Groups and Capturing](#groups-and-capturing)
-   - [Flags](#flags)
+    - [Basic Characters](#basic-characters)
+    - [Quantifiers](#quantifiers)
+    - [Special Characters](#special-characters)
+    - [Groups and Capturing](#groups-and-capturing)
+    - [Flags](#flags)
 5. [Examples](#examples)
 6. [Conclusion](#conclusion)
+
 
 ## Introduction to Regular Expressions
 
