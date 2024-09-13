@@ -1,28 +1,29 @@
 # DOM Manipulation in JavaScript with ES6+
 
-## Introduction to the DOM
-
-The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document (e.g., elements, attributes, text). JavaScript can be used to manipulate the DOM, allowing dynamic changes to the content and structure of a web page.
-
 ## Table of Contents
 
-1. [Accessing DOM Elements](#accessing-dom-elements)
+1. [Introduction to the DOM](#introduction-to-the-dom)
+2. [Accessing DOM Elements](#accessing-dom-elements)
    - [Selecting Elements](#selecting-elements)
    - [Traversing the DOM](#traversing-the-dom)
-2. [Manipulating DOM Elements](#manipulating-dom-elements)
+3. [Manipulating DOM Elements](#manipulating-dom-elements)
    - [Creating and Appending Elements](#creating-and-appending-elements)
    - [Modifying Element Content](#modifying-element-content)
    - [Modifying Element Attributes](#modifying-element-attributes)
    - [Styling Elements](#styling-elements)
-3. [Event Handling](#event-handling)
+4. [Event Handling](#event-handling)
    - [Adding Event Listeners](#adding-event-listeners)
    - [Event Object](#event-object)
-4. [ES6+ Features in DOM Manipulation](#es6-features-in-dom-manipulation)
+5. [ES6+ Features in DOM Manipulation](#es6-features-in-dom-manipulation)
    - [Arrow Functions](#arrow-functions)
    - [Template Literals](#template-literals)
    - [Destructuring](#destructuring)
    - [Promises and Async/Await](#promises-and-asyncawait)
-5. [Conclusion](#conclusion)
+6. [Conclusion](#conclusion)
+
+## Introduction to the DOM
+
+The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document (e.g., elements, attributes, text). JavaScript can be used to manipulate the DOM, allowing dynamic changes to the content and structure of a web page.
 
 ## Accessing DOM Elements
 
@@ -146,10 +147,6 @@ async function fetchData() {
   const data = await response.json();
   element.innerHTML = `<p>${data.message}</p>`;
 }
-
-***Conclusion***
-
-The DOM is a powerful tool for creating dynamic and interactive web pages. With ES6+ features, JavaScript code becomes more concise and readable, making DOM manipulation more efficient and enjoyable.
 
 > [!TIP]
 >

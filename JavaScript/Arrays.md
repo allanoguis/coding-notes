@@ -126,10 +126,6 @@ for (const el of arr) {
 }
 ```
 
-## Conclusion
-
-Arrays are a powerful and versatile data structure in JavaScript, especially with the enhancements introduced in ES6. Understanding the various methods and properties available for array manipulation can greatly enhance your ability to work with collections of data efficiently.
-
 > [!TIP]
 >
 > Use array destructuring and the spread operator for concise and readable code.

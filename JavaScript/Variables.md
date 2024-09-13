@@ -15,7 +15,6 @@
 5. [Data Types](#data-types)
 6. [Type Coercion](#type-coercion)
 7. [Variable Naming Conventions](#variable-naming-conventions)
-8. [Conclusion](#conclusion)
 
 ## Introduction to Variables
 
@@ -134,13 +133,13 @@ JavaScript supports several data types:
 
 | Type | Description | Example |
 |:----------|:------------|:--------|
-| Number | Numeric data type | let age = 25; |
-| String | Textual data type | let name = "John"; |
-| Boolean | Logical data type | let isStudent = true; |
-| Undefined | Variable declared but not assigned a value | let x; |
-| Null | Intentional absence of any object value | let empty = null; |
-| Symbol | Unique identifier | let id = Symbol('id'); |
-| BigInt | Integer values larger than 2^53 - 1 | let bigNumber = 1234567890123456789012345678901234567890n; |
+| Number | Numeric data type | `let age = 25;` |
+| String | Textual data type | `let name = "John";` |
+| Boolean | Logical data type | `let isStudent = true;` |
+| Undefined | Variable declared but not assigned a value | `let x;` |
+| Null | Intentional absence of any object value | `let empty = null;` |
+| Symbol | Unique identifier | `let id = Symbol('id');` |
+| BigInt | Integer values larger than `2^53 - 1` | `let bigNumber = 1234567890123456789012345678901234567890n;` |
 
 ## Type Coercion
 
@@ -148,16 +147,17 @@ JavaScript performs implicit type conversion in certain operations:
 
 | Operation | Description | Example |
 |:----------|:------------|:--------|
-| Implicit | Automatic type conversion | "5" + 3 results in "53" |
-| Explicit | Manual type conversion | Number("5") results in 5 |
+| Implicit | Automatic type conversion | `"5" + 3 results in "53"` |
+| Explicit | Manual type conversion | `Number("5") results in 5` |
 
 ## Variable Naming Conventions
 
-| Convention | Description | Example | |:-----------|:------------|:--------| | camelCase | First word lowercase, subsequent words capitalized | let firstName = "John"; | | PascalCase | Each word capitalized (typically used for classes) | class Person {} | | snake_case | Words separated by underscores | let user_age = 25; | | UPPERCASE | All capital letters (typically used for constants) | const MAX_SIZE = 100; |
-
-## Conclusion
-
-Understanding variables in JavaScript, especially with the enhancements introduced in ES6, is crucial for writing efficient and maintainable code. Use const by default, let when reassignment is needed, and avoid var in modern JavaScript.
+| Convention | Description | Example |
+|:-----------|:------------|:--------|
+| camelCase | First word lowercase, subsequent words capitalized | `let firstName = "John";` |
+| PascalCase | Each word capitalized (typically used for classes) | `class Person {}` |
+| snake_case | Words separated by underscores | `let user_age = 25;` |
+| UPPERCASE | All capital letters (typically used for constants) | `const MAX_SIZE = 100;` |
 
 >[!TIP]
 >
@@ -167,3 +167,5 @@ Understanding variables in JavaScript, especially with the enhancements introduc
 > Use UPPERCASE for constants.
 > Declare variables at the top of their scope.
 > Avoid global variables when possible.
+
+[EOF]

@@ -12,8 +12,9 @@
     - [Groups and Capturing](#groups-and-capturing)
     - [Flags](#flags)
 5. [Examples](#examples)
-6. [Conclusion](#conclusion)
-
+    - [Email Validation](#email-validation)
+    - [URL Validation](#url-validation)
+    - [Date Validation (YYYY-MM-DD)](#date-validation-yyyy-mm-dd)
 
 ## Introduction to Regular Expressions
 
@@ -145,38 +146,32 @@ const result = 'apple,banana,cherry'.split(regex); // ['apple', 'banana', 'cherr
 
 #### Examples
 
-***Email Validation***
+##### Email Validation
 
 ```javascript
 const emailRegex = /^[\w.-]+@[\w.-]+\.\w+$/;
 const isValidEmail = emailRegex.test('example@example.com'); // true
 ```
 
-***URL Validation***
+##### URL Validation
 
 ```javascript
 const urlRegex = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
 const isValidUrl = urlRegex.test('https://www.example.com'); // true
 ```
 
-***Date Validation (YYYY-MM-DD)***
+##### Date Validation (YYYY-MM-DD)
 
 ```javascript
 const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
 const isValidDate = dateRegex.test('2023-10-05'); // true
 ```
 
-## Conclusion
-
-Regular expressions are a powerful tool for text processing and validation in JavaScript. With the enhancements introduced in ES6, working with regular expressions has become more efficient and expressive. Understanding the various methods and syntax available for regular expressions can greatly enhance your ability to work with textual data efficiently.
-
 > [!TIP]
 >
 > Use online tools like regex101.com to test and debug your regular expressions.
 > Leverage ES6+ features like template literals for dynamic regular expressions.
 > Always consider the performance implications of regular expressions, especially when dealing with large texts.
-
-> [!TIP]
 > Use online tools like regex101.com to test and debug your regular expressions.
 
 [EOF]

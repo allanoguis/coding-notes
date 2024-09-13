@@ -1,4 +1,4 @@
-# The .map() Method in JavaScript with ES6+
+# The `.map()` Method in JavaScript with ES6+
 
 ## Table of Contents
 
@@ -17,18 +17,15 @@
     - [Combining with Other Methods](#combining-with-other-methods)
 7. [Conclusion](#conclusion)
 
-
 ## Introduction to the .map() Method
 
 The `.map()` method is a powerful array method in JavaScript that creates a new array with the results of calling a provided function on every element in the calling array. It is a non-mutating method, meaning it does not alter the original array.
 
 ## Syntax
 
-```javascript 
+```javascript
 array.map(callback(currentValue[, index[, array]])[, thisArg])
 ```
-
-
 
 ## Parameters
 
@@ -119,10 +116,6 @@ const numbers = [1, 2, 3, 4];
 const result = numbers.map(num => num * 2).filter(num => num > 5);
 console.log(result); // [6, 8]
 ```
-
-## Conclusion
-
-The `.map()` method is a versatile and powerful tool for transforming arrays in JavaScript. With ES6+ features, it becomes even more expressive and flexible. Understanding how to use `.map()` effectively can greatly enhance your ability to work with arrays and data transformations.
 
 > [!TIP]
 >
