@@ -18,6 +18,7 @@
 13. [Timing and Asynchronous Operations](#timing-and-asynchronous-operations)
 14. [DOM Manipulation](#dom-manipulation)
 15. [JSON Handling](#json-handling)
+16. [Closures](#closures)
 
 ## Regular Expressions (RegEx)
 
@@ -346,7 +347,7 @@ The `.map()` method creates a new array with the results of calling a provided f
 | `array` (optional) | The array `map` was called upon |
 | `thisArg` (optional) | Value to use as `this` when executing callback |
 
-Example
+#### Example
 
 Basic Usage
 
@@ -413,7 +414,7 @@ class Person { constructor(name) { this.name = name; } }
 | Capitalization | Constructor names are typically capitalized (convention) |
 | Return value | Constructors implicitly return the new object instance |
 
-Example
+### Example
 
 ```javascript
 function Car(make, model) {
@@ -475,7 +476,7 @@ Classes in JavaScript provide a more structured and intuitive way to create obje
 | Static Methods | Methods called on the class itself, not instances | `static create() { return new this(); }` |
 | Getters/Setters | Special methods for getting/setting values | `get fullName() { return this._fullName; }` |
 
-Example
+#### Example
 
 ```javascript
 class Animal {
@@ -591,7 +592,7 @@ Getters and setters are special methods that allow you to define how to get and 
 | Data Validation | Can be used to validate data before setting a property |
 | Lazy Loading | Can be used to delay the initialization of a property until it's first accessed |
 
-Examples
+#### Examples
 
 ***Basic Getter and Setter***
 
@@ -672,7 +673,7 @@ Destructuring is a JavaScript expression that allows you to extract data from ar
 | `const [a, ...rest] = array;` | Rest pattern |
 | `const [a = defaultValue] = array;` | Default values |
 
-Examples
+#### Examples
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -696,7 +697,7 @@ console.log(b);  // 3
 | `const { prop = defaultValue } = object;` | Default values |
 | `const { ...rest } = object;` | Rest pattern |
 
-Examples
+#### Examples
 
 ```javascript
 const person = {
@@ -724,7 +725,7 @@ console.log(rest);     // { age: 30, city: 'New York' }
 
 #### Function Parameter Destructuring
 
-Examples
+##### Examples
 
 ```javascript
 function printPerson({ name, age }) {
@@ -776,5 +777,60 @@ printPerson(person); // 'Alice is 25 years old.'
 |:---              |:---                                                                                           |
 | `JSON.parse()`   | Parses a JSON string, constructing the JavaScript value or object described by the string     |
 | `JSON.stringify()`| Converts a JavaScript object or value to a JSON string |
+
+## Closures
+
+A closure is a function that has access to its own scope, the scope in which it was created, and the scope of the outer function (if any). This allows the function to "remember" the environment in which it was created, even after the outer function has finished executing.
+
+### Key Points
+
+- **Lexical Scoping**: Closures are a result of JavaScript's lexical scoping rules, where functions are executed using the scope chain that was in effect when they were defined.
+- **Private Variables**: Closures can be used to create private variables, which are not accessible from outside the function.
+- **Function Factories**: Closures can be used to create function factories, where a function returns another function with specific behavior.
+
+#### Example
+
+In this example, we demonstrate how closures can be used to maintain access to variables from an outer function's scope:
+
+```javascript
+function outerFunction() {
+    let outerVariable = 'I am outside!';
+
+    function innerFunction() {
+        console.log(outerVariable); // innerFunction has access to outerVariable
+    }
+
+    return innerFunction;
+}
+
+const closureExample = outerFunction();
+closureExample(); // Outputs: "I am outside!"
+```
+
+> [!TIP]
+>
+> - Use closures to maintain access to variables from an outer function's scope.
+> - Use closures to create private variables that are not accessible from outside the function.
+> - Use closures to create function factories that return functions with specific behavior.
+
+##### Conclusion
+
+Outer Function: outerFunction defines a variable outerVariable and a function innerFunction.
+Inner Function: innerFunction is a closure because it captures the environment in which it was created, including outerVariable.
+
+Return Inner Function: When outerFunction is called, it returns innerFunction.
+Closure in Action: Even after outerFunction has finished executing, innerFunction (now assigned to closureExample) still has access to outerVariable due to the closure.
+
+Data Encapsulation: Closures can be used to encapsulate data, making it private and accessible only through specific methods.
+
+Callbacks and Event Handlers: Closures are often used in callbacks and event handlers to maintain state across asynchronous operations.
+
+Function Factories: Closures can be used to create functions with specific configurations or behaviors.
+Important Considerations
+
+Memory Management: Closures can lead to memory leaks if not managed properly, as they keep references to variables that might otherwise be garbage collected.
+
+Performance: Overuse of closures can impact performance due to the additional scope chain lookups.
+By understanding and effectively using closures, you can write more modular, maintainable, and efficient JavaScript code.
 
 [EOF]
