@@ -136,13 +136,13 @@ style.color = 'blue';
 Promises and async/await can be used to handle asynchronous DOM operations, such as fetching data and updating the DOM.
 
 async function fetchData() {
-  const response = await fetch('https://api.example.com/data');
+  const response = await fetch('<https://api.example.com/data>');
   const data = await response.json();
   element.innerHTML = `<p>${data.message}</p>`;
 }
 
 async function fetchData() {
-  const response = await fetch('https://api.example.com/data');
+  const response = await fetch('<https://api.example.com/data>');
   const data = await response.json();
   element.innerHTML = `<p>${data.message}</p>`;
 }
