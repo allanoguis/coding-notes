@@ -1,24 +1,25 @@
-# **JavaScript Notes**
+# JavaScript Fundamentals
 
 ## Table of Contents
 
-1. [Regular Expressions (RegEx)](#regular-expressions-regex)
-2. [Variables](#variables)
-3. [Strings](#strings)
-4. [Arrays](#arrays)
-5. [Objects](#objects)
-6. [Math and Numbers](#math-and-numbers)
-7. [Arrow Functions](#arrow-functions)
-8. [Array Methods](#array-methods)
+1. [Variables](#variables)
+2. [Strings](#strings)
+3. [Arrays](#arrays)
+4. [Objects](#objects)
+5. [Math and Numbers](#math-and-numbers)
+6. [Arrow Functions](#arrow-functions)
+7. [Array Methods](#array-methods)
    - [The .map() Method](#the-map-method)
-9. [Constructors](#constructors)
-10. [Classes](#classes)
-11. [Getters and Setters](#getters-and-setters)
-12. [Destructuring](#destructuring)
-13. [Timing and Asynchronous Operations](#timing-and-asynchronous-operations)
-14. [DOM Manipulation](#dom-manipulation)
-15. [JSON Handling](#json-handling)
+8. [Constructors](#constructors)
+9. [Classes](#classes)
+10. [Getters and Setters](#getters-and-setters)
+11. [Destructuring](#destructuring)
+12. [Timing and Asynchronous Operations](#timing-and-asynchronous-operations)
+13. [DOM Manipulation](#dom-manipulation)
+14. [JSON Handling](#json-handling)
+15. [Regular Expressions (RegEx)](#regular-expressions-regex)
 16. [Closures](#closures)
+17. [Callbacks](#callbacks)
 
 ## Regular Expressions (RegEx)
 
@@ -822,7 +823,8 @@ console.log('Processing...');
 console.log('End');
 ```
 
-Asynchronous Operations
+#### Asynchronous Operations
+
 Asynchronous operations allow other code to run while waiting for a task to complete, using mechanisms like callbacks, promises, and async/await.
 
 | Feature | Description |
@@ -854,9 +856,9 @@ console.log('End');
 
 | Function/Syntax | Description |
 |:--- |:--- |
-| Promise.all() | Takes an iterable of promises as an input, and returns a single Promise |
-| Promise.race()| Returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects |
-| async/await | Syntactic sugar for working with promises |
+| `Promise.all()` | Takes an iterable of promises as an input, and returns a single Promise |
+| `Promise.race()` | Returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects |
+| `async/await` | Syntactic sugar for working with promises |
 
 ##### Examples
 
@@ -886,8 +888,136 @@ getData();
 > Use Promise.all() to run multiple asynchronous operations concurrently.
 > Use Promise.race() to handle scenarios where you need the result of the fastest promise.
 
+## Callbacks
 
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. Callbacks are a fundamental concept in JavaScript, especially when dealing with asynchronous operations, event handling, and functional programming.
 
+Callbacks are a powerful tool in JavaScript for handling asynchronous operations and modularizing code. However, they can lead to complex and hard-to-read code when used excessively. Promises and async/await provide more structured and readable alternatives for handling asynchronous operations, especially in complex scenarios.
 
+### How Callbacks Work
+
+1. **Function Definition**: Define a function that takes another function as an argument.
+2. **Function Invocation**: Invoke the passed function (callback) inside the outer function.
+
+### Example
+
+Let's look at a simple example of a synchronous callback:
+
+```javascript
+function greet(name, callback) {
+  console.log(`Hello, ${name}!`);
+  callback();
+}
+
+function sayGoodbye() {
+  console.log('Goodbye!');
+}
+
+greet('Alice', sayGoodbye);
+```
+
+***Explanation***
+
+greet Function: This function takes two parameters: name and callback.
+console.log: Prints a greeting message.
+callback(): Invokes the callback function passed as an argument.
+sayGoodbye Function: This is the callback function that prints a goodbye message.
+greet('Alice', sayGoodbye): Calls the greet function with 'Alice' as the name and sayGoodbye as the callback.
+Asynchronous Callbacks
+Callbacks are often used in asynchronous operations to handle the result once the operation completes. For example, in JavaScript, callbacks are commonly used with timers, event listeners, and AJAX requests.
+
+### Example with setTimeout
+
+```javascript
+function delayedGreeting(name, callback) {
+  setTimeout(() => {
+    console.log(`Hello, ${name}!`);
+    callback();
+  }, 1000);
+}
+
+function sayGoodbye() {
+  console.log('Goodbye!');
+}
+
+delayedGreeting('Alice', sayGoodbye);
+```
+
+***Explanation***
+
+delayedGreeting Function: This function takes two parameters: name and callback.
+setTimeout: Delays the execution of the greeting message by 1000 milliseconds (1 second).
+console.log: Prints the greeting message after the delay.
+callback(): Invokes the callback function after the greeting message is printed.
+sayGoodbye Function: This is the callback function that prints a goodbye message.
+delayedGreeting('Alice', sayGoodbye): Calls the delayedGreeting function with 'Alice' as the name and sayGoodbye as the callback.
+
+### Callback Hell (Pyramid of Doom)
+
+When dealing with multiple asynchronous operations that depend on each other, callbacks can lead to deeply nested and hard-to-read code, often referred to as "callback hell" or the "pyramid of doom."
+
+### Example
+
+```javascript
+asyncOperation1(function(result1) {
+  asyncOperation2(result1, function(result2) {
+    asyncOperation3(result2, function(result3) {
+      console.log(result3);
+    });
+  });
+});
+```
+
+In this example, we have three asynchronous operations that depend on each other. Each operation takes a callback function as an argument, which is invoked inside the previous operation to complete the task. The code becomes more complex and harder to read as the number of operations increases.
+
+### Solutions to Callback Hell
+
+Promises: Promises provide a more structured way to handle asynchronous operations.
+Async/Await: Async/await is syntactic sugar built on top of promises, making asynchronous code look more like synchronous code.
+
+### Example with Promises
+
+```javascript
+function asyncOperation1() {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve('Result 1'), 1000);
+  });
+}
+
+function asyncOperation2(result1) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(`${result1} -> Result 2`), 1000);
+  });
+}
+
+function asyncOperation3(result2) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(`${result2} -> Result 3`), 1000);
+  });
+}
+
+asyncOperation1()
+  .then(asyncOperation2)
+  .then(asyncOperation3)
+  .then(console.log)
+  .catch(console.error);
+```
+
+### Example with Async/Await
+
+```javascript
+async function runOperations() {
+  try {
+    const result1 = await asyncOperation1();
+    const result2 = await asyncOperation2(result1);
+    const result3 = await asyncOperation3(result2);
+    console.log(result3);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+runOperations();
+```
 
 [EOF]
