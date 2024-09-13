@@ -123,7 +123,7 @@ const result = 'apple,banana,cherry'.split(regex); // ['apple', 'banana', 'cherr
 | `\` | Escape character |
 | `[]` | Character set |
 | `[^]` | Negated character set |
-| | | Alternation `(OR)` |
+| `\|` | Alternation `(OR)` |
 | `()` | Capturing group |
 
 ### Groups and Capturing
@@ -174,5 +174,8 @@ Regular expressions are a powerful tool for text processing and validation in Ja
 > Use online tools like regex101.com to test and debug your regular expressions.
 > Leverage ES6+ features like template literals for dynamic regular expressions.
 > Always consider the performance implications of regular expressions, especially when dealing with large texts.
+
+> [!TIP]
+> Use online tools like regex101.com to test and debug your regular expressions.
 
 [EOF]
