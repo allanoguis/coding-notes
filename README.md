@@ -2,22 +2,22 @@
 
 ## Javascipt
 
-[text](JavaScript/Arrays.md)
-[text](<JavaScript/Arrow Function.md>)
-[text](JavaScript/Callbacks.md)
-[text](JavaScript/Classes.md)
-[text](JavaScript/Constructors.md)
-[text](JavaScript/Destructuring.md)
-[text](JavaScript/DOM.md)
-[text](<JavaScript/Getters and Setters.md>)
-[text](<JavaScript/JSON Handling.md>)
-[text](<JavaScript/Map Method.md>)
-[text](<JavaScript/Math Function.md>)
-[text](JavaScript/Objects.md)
-[text](<JavaScript/Regular Expressions - RegEx.md>)
-[text](JavaScript/Strings.md)
-[text](<JavaScript/Timing and Asynchronous Operations.md>)
-[text](JavaScript/Variables.md)
+[Arrays](JavaScript/Arrays.md)
+[Arrow Function](<JavaScript/Arrow Function.md>)
+[Callbacks](JavaScript/Callbacks.md)
+[Classes](JavaScript/Classes.md)
+[Constructors](JavaScript/Constructors.md)
+[Destructuring](JavaScript/Destructuring.md)
+[DOM](JavaScript/DOM.md)
+[Getters and Setters](<JavaScript/Getters and Setters.md>)
+[JSON Handling](<JavaScript/JSON Handling.md>)
+[Map Method](<JavaScript/Map Method.md>)
+[Math Function](<JavaScript/Math Function.md>)
+[Objects](JavaScript/Objects.md)
+[Regular Expressions - RegEx](<JavaScript/Regular Expressions - RegEx.md>)
+[Strings](JavaScript/Strings.md)
+[Timing and Asynchronous Operations](<JavaScript/Timing and Asynchronous Operations.md>)
+[Variables](JavaScript/Variables.md)
 
 I'm building my own library of notes on programming languages. Feel free to fork the repo, make pull requests, post issues, and drop a star.
 
