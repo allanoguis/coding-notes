@@ -12,7 +12,6 @@
     - [Static Methods Example](#static-methods-example)
 6. [Private Fields and Methods](#private-fields-and-methods)
     - [Private Fields and Methods Example](#private-fields-and-methods-example)
-7. [Conclusion](#conclusion)
 
 ## Introduction to Constructors
 

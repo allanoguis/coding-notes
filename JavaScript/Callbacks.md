@@ -16,7 +16,6 @@
    - [Handling Asynchronous Operations](#handling-asynchronous-operations)
    - [Using Promises](#using-promises)
    - [Using Async/Await](#using-asyncawait)
-6. [Conclusion](#conclusion)
 
 ## Introduction to Callbacks
 

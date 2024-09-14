@@ -13,7 +13,6 @@
 5. [Array Destructuring](#array-destructuring)
 6. [Array Spread Operator](#array-spread-operator)
 7. [Array Iteration with `for...of`](#array-iteration-with-forof)
-8. [Conclusion](#conclusion)
 
 ## Introduction to Arrays
 

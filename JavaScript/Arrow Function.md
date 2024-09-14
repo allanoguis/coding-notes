@@ -21,7 +21,6 @@
    - [Basic Example](#basic-example)
    - [Handling Events](#handling-events)
    - [Array Methods](#array-methods)
-6. [Conclusion](#conclusion)
 
 ## Introduction to Arrow Functions
 

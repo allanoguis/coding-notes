@@ -12,7 +12,6 @@
    - [Super Keyword](#super-keyword)
 7. [Getters and Setters](#getters-and-setters)
 8. [Private Fields and Methods](#private-fields-and-methods)
-9. [Conclusion](#conclusion)
 
 ## Introduction to Classes
 
