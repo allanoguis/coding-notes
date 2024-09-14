@@ -19,7 +19,6 @@
    - [Template Literals](#template-literals)
    - [Destructuring](#destructuring)
    - [Promises and Async/Await](#promises-and-asyncawait)
-6. [Conclusion](#conclusion)
 
 ## Introduction to the DOM
 
