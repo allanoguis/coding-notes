@@ -12,7 +12,6 @@ JavaScript is a single-threaded, non-blocking language, which means that it can 
    - Callbacks
    - Promises
    - Async/Await
-3. [Conclusion](#conclusion)
 
 ## Timing Mechanisms
 
