@@ -1,7 +1,5 @@
 # Destructuring in JavaScript with ES6+
 
-# Go Back to: [JavaScript Main Library](../README.md)
-
 ## Table of Contents
 
 1. [Introduction to Destructuring](#introduction-to-destructuring)

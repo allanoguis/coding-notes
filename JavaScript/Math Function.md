@@ -6,7 +6,6 @@
 2. [Common Math Functions](#common-math-functions)
 3. [ES6+ Math Functions](#es6-math-functions)
 4. [Examples](#examples)
-5. [Conclusion](#conclusion)
 
 ## Introduction to Math Functions
 

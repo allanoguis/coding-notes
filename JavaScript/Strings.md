@@ -11,7 +11,6 @@
 4. [String Properties](#string-properties)
 5. [String Concatenation](#string-concatenation)
 6. [String Comparison](#string-comparison)
-7. [Conclusion](#conclusion)
 
 ## Introduction to Strings
 
@@ -32,7 +31,7 @@ console.log(greeting);
 
 Output:
 
-    Hello, John!
+ Hello, John!
     Welcome to our website.
 
 ## String Methods
@@ -43,7 +42,7 @@ Output:
 |:-------|:------------|:--------|
 | `str.length` | Returns the length of the string | `const len = 'hello'.length; // 5` |
 | `str.charAt(index)` | Returns the character at the specified index | `const char = 'hello'.charAt(1); // 'e'` |
-| `str.indexOf(substring)` | Returns the index of the first occurrence of a substring |` const index = 'hello'.indexOf('l'); // 2` |
+| `str.indexOf(substring)` | Returns the index of the first occurrence of a substring | `const index = 'hello'.indexOf('l'); // 2` |
 | `str.lastIndexOf(substring)` | Returns the index of the last occurrence of a substring | `const lastIndex = 'hello'.lastIndexOf('l'); // 3` |
 | str.slice(start, end) | Extracts a section of a string and returns it as a new string | `const sliced = 'hello'.slice(1, 4); // 'ell'` |
 | `str.substring(start, end)` | Returns the part of the string between the start and end indexes | `const sub = 'hello'.substring(1, 4); // 'ell'` |
@@ -88,10 +87,6 @@ const str2 = 'banana';
 console.log(str1 < str2); // true
 console.log(str1 === 'apple'); // true
 ```
-
-## Conclusion
-
-Strings are a powerful and versatile data type in JavaScript, especially with the enhancements introduced in ES6. Understanding the various methods and properties available for string manipulation can greatly enhance your ability to work with textual data efficiently.
 
 > [!TIP]
 >

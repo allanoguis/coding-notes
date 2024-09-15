@@ -15,7 +15,6 @@
     - [Transforming Data](#transforming-data)
     - [Generating HTML Elements](#generating-html-elements)
     - [Combining with Other Methods](#combining-with-other-methods)
-7. [Conclusion](#conclusion)
 
 ## Introduction to the .map() Method
 
