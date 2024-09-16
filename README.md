@@ -1,7 +1,5 @@
 # Main Library
 
-## CSS
-
 ## Framer Motion
 
 Site Reference: https://www.framer.com/motion/introduction/
@@ -32,7 +30,10 @@ Site Reference: https://www.framer.com/motion/introduction/
 
 ## React JS
 
+...next
+
 ## Next JS
 
-[EOF]
+...later
 
+[EOF]

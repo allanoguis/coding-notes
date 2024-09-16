@@ -52,28 +52,28 @@
   - Different Ways to Assert Types
 
 - [Advanced Types](#advanced-types)
-  -- Union and Intersection Types
-  -- Type Guards
-  -- Mapped Types
-  -- Conditional Types
+  - Union and Intersection Types
+  - Type Guards
+  - Mapped Types
+  - Conditional Types
 
 - [Decorators](#decorators)
-  -- Introduction to Decorators
-  -- Class Decorators
-  -- Method and Property Decorators
+  - Introduction to Decorators
+  - Class Decorators
+  - Method and Property Decorators
 
 - [Working with Third-Party Libraries](#working-with-third-party-libraries)
-  -- Using Type Definitions
-  -- Install and Configure DefinitelyTyped
+  - Using Type Definitions
+  - Install and Configure DefinitelyTyped
 
 - [Tooling and Best Practices](#tooling-and-best-practices)
-  -- TypeScript in Build Tools (Webpack, Gulp, etc.)
-  -- Linting with TSLint/ESLint
-  -- Best Practices for TypeScript Development
+  - TypeScript in Build Tools (Webpack, Gulp, etc.)
+  - Linting with TSLint/ESLint
+  - Best Practices for TypeScript Development
 
 - [Testing TypeScript](#testing-typescript)
-  -- Unit Testing Frameworks
-  -- Writing Tests in TypeScript
+  - Unit Testing Frameworks
+  - Writing Tests in TypeScript
 
 ## Introduction to TypeScript
 
