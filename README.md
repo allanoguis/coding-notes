@@ -27,7 +27,12 @@ Site Reference: https://www.framer.com/motion/introduction/
 
 ## TypeScript
 
-- [TypeScript Documentation](TypeScript/TypeScript Documentation.md)
-- [TypeScript-vs-JacaScript](TypeScript/TypeScript-vs-JacaScript.md)
+- [TypeScript Documentation](TypeScript/TypeScript-Documentation.md)
+- [TypeScript vs JacaScript](TypeScript/TypeScript-vs-JacaScript.md)
+
+## React JS
+
+## Next JS
 
 [EOF]
+
