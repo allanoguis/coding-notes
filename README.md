@@ -27,18 +27,7 @@ Site Reference: https://www.framer.com/motion/introduction/
 
 ## TypeScript
 
-- [Introduction to TypeScript](TypeScript/Introduction.md)
-- [Basic Types](TypeScript/Basic%20Types.md)
-- [Functions](TypeScript/Functions.md)
-- [Interfaces](TypeScript/Interfaces.md)
-- [Classes](TypeScript/Classes.md)
-- [Generics](TypeScript/Generics.md)
-- [Modules](TypeScript/Modules.md)
-- [Type Assertions](TypeScript/Assertions.md)
-- [Advanced Types](TypeScript/Advanced%20Types.md)
-- [Decorators](TypeScript/Decorators.md)
-- [Working with Third-Party Libraries](TypeScript/Working%20with%203rd%20party%20Libraries.md)
-- [Tooling and Best Practices](TypeScript/Tools%20and%20Best%20Practices.md)
-- [Testing TypeScript](TypeScript/Unit%20Testing.md)
+- [TypeScript Documentation](TypeScript/TypeScript Documentation.md)
+- [TypeScript-vs-JacaScript](TypeScript/TypeScript-vs-JacaScript.md)
 
 [EOF]
