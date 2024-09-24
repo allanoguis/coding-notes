@@ -1,8 +1,8 @@
-React Component Lifecycle
+# React Component Lifecycle
 
 In React, every component has a lifecycle that can be categorized into three main phases: Mounting, Updating, and Unmounting. Understanding these lifecycle methods is essential for managing side effects, optimizing performance, and ensuring that your application behaves as expected.
 
-Table of Contents
+## Table of Contents
 Introduction to Component Lifecycle
 Mounting Phase
 Updating Phase
@@ -10,11 +10,11 @@ Unmounting Phase
 Lifecycle Methods
 Using Lifecycle Methods in Functional Components
 Best Practices
-Conclusion
-Introduction to Component Lifecycle
+
+## Introduction to Component Lifecycle
 The lifecycle of a React component refers to the series of methods that are invoked at different stages of a component's existence. These methods allow you to perform actions such as fetching data, setting up subscriptions, or cleaning up resources.
 
-Mounting Phase
+### Mounting Phase
 The mounting phase occurs when a component is being created and inserted into the DOM. The lifecycle methods associated with this phase are:
 
 constructor(props): This is the first method called in the lifecycle. It is used for initializing state and binding methods.
@@ -50,7 +50,8 @@ componentDidMount() {
 }
 ```
 
-Updating Phase
+### Updating Phase
+
 The updating phase occurs when a component's state or props change. The lifecycle methods in this phase include:
 
 static getDerivedStateFromProps(props, state): Same as in the mounting phase, it can be invoked when updating a component.
@@ -81,7 +82,8 @@ componentDidUpdate(prevProps, prevState, snapshot) {
 }
 ```
 
-Unmounting Phase
+### Unmounting Phase
+
 The unmounting phase occurs when a component is being removed from the DOM. The key lifecycle method at this stage is:
 
 componentWillUnmount(): This method is invoked immediately before a component is unmounted and destroyed. It's the perfect place for cleanup activities such as invalidating timers or canceling network requests.
@@ -92,7 +94,8 @@ componentWillUnmount() {
 }
 ```
 
-Lifecycle Methods in Functional Components
+## Lifecycle Methods in Functional Components
+
 In functional components, you can use the useEffect hook to mimic the behavior of lifecycle methods. Here’s how you can manage lifecycle events:
 
 componentDidMount and componentDidUpdate: By providing a dependencies array to useEffect, you can replicate these methods.
@@ -114,11 +117,18 @@ useEffect(() => {
 }, [dependency]); // Runs when "dependency" changes
 ```
 
-Best Practices
-Use Lifecycle Methods Wisely: Avoid putting too much logic in lifecycle methods. Keep them focused on their specific purpose.
-Manage State and Side Effects: Prefer using useEffect in functional components for managing side effects.
-Optimize Performance: Use shouldComponentUpdate to prevent unnecessary re-renders.
-Clean Up Resources: Always perform cleanup in componentWillUnmount or the cleanup function of useEffect.
-Avoid Side Effects in Render: Keep side effects out of the render method to avoid unexpected behavior.
+## Best Practices
+
+> [!TIP]
+>
+> Use Lifecycle Methods Wisely: Avoid putting too much logic in lifecycle methods. Keep them focused on their specific purpose.
+>
+> Manage State and Side Effects: Prefer using useEffect in functional components for managing side effects.
+>
+> Optimize Performance: Use shouldComponentUpdate to prevent unnecessary re-renders.
+>
+> Clean Up Resources: Always perform cleanup in componentWillUnmount or the cleanup function of useEffect.
+>
+> Avoid Side Effects in Render: Keep side effects out of the render method to avoid unexpected behavior.
 
 [EOF]
