@@ -18,7 +18,6 @@
 [Using Middleware](#using-middleware)
 [CORS Support](#cors-support)
 [Best Practices](#best-practices)
-[Conclusion](#conclusion)
 
 ---
 
