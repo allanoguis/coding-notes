@@ -13,6 +13,8 @@
 9. [Object.keys(), Object.values(), Object.entries()](#objectkeys-objectvalues-objectentries)
 10. [Private Fields and Methods](#private-fields-and-methods)
 
+---
+
 ## Introduction to Objects
 
 Objects are a fundamental data structure in JavaScript used to store collections of key-value pairs. With the introduction of ES6, JavaScript added several new features and methods to make object manipulation more powerful and flexible.

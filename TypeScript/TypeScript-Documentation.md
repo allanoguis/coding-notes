@@ -2,78 +2,80 @@
 
 ## Table of Contents
 
-- [Introduction to TypeScript](#introduction-to-typescript)
-  - What is TypeScript?
-  - Benefits of Using TypeScript
-  - TypeScript vs JavaScript
+[Introduction to TypeScript](#introduction-to-typescript)
+    - What is TypeScript?
+    - Benefits of Using TypeScript
+    - TypeScript vs JavaScript
 
-- [Getting Started](#getting-started)
-  - Installing TypeScript
-  - Setting Up a TypeScript Project
-  - TypeScript Compiler Options
+[Getting Started](#getting-started)
+    - Installing TypeScript
+    - Setting Up a TypeScript Project
+    - TypeScript Compiler Options
 
-- [Basic Types](#basic-types)
-  - Primitive Types
-  - Arrays and Tuples
-  - Enums
-  - Any and Unknown Types
+[Basic Types](#basic-types)
+    - Primitive Types
+    - Arrays and Tuples
+    - Enums
+    - Any and Unknown Types
 
-- [Functions](#functions)
-  - Function Types
-  - Optional and Default Parameters
-  - Rest Parameters
+[Functions](#functions)
+    - Function Types
+    - Optional and Default Parameters
+    - Rest Parameters
 
-- [Interfaces](#interfaces)
-  - Defining Interfaces
-  - Optional Properties
-  - Readonly Properties
-  - Extending Interfaces
+[Interfaces](#interfaces)
+    - Defining Interfaces
+    - Optional Properties
+    - Readonly Properties
+    - Extending Interfaces
 
-- [Classes](#classes)
-  - Introduction to Classes
-  - Constructors
-  - Inheritance
-  - Access Modifiers
-  - Static Properties and Methods
+[Classes](#classes)
+    - Introduction to Classes
+    - Constructors
+    - Inheritance
+    - Access Modifiers
+    - Static Properties and Methods
 
-- [Generics](#generics)
-  - Introduction to Generics
-  - Generic Functions
-  - Generic Interfaces
-  - Constraints in Generics
+[Generics](#generics)
+    - Introduction to Generics
+    - Generic Functions
+    - Generic Interfaces
+    - Constraints in Generics
 
-- [Modules](#modules)
-  - Introduction to Modules
-  - Exporting and Importing Modules
-  - Namespaces vs Modules
+[Modules](#modules)
+    - Introduction to Modules
+    - Exporting and Importing Modules
+    - Namespaces vs Modules
 
-- [Type Assertions](#type-assertions)
-  - What are Type Assertions?
-  - Different Ways to Assert Types
+[Type Assertions](#type-assertions)
+    - What are Type Assertions?
+    - Different Ways to Assert Types
 
-- [Advanced Types](#advanced-types)
-  - Union and Intersection Types
-  - Type Guards
-  - Mapped Types
-  - Conditional Types
+[Advanced Types](#advanced-types)
+    - Union and Intersection Types
+    - Type Guards
+    - Mapped Types
+    - Conditional Types
 
-- [Decorators](#decorators)
-  - Introduction to Decorators
-  - Class Decorators
-  - Method and Property Decorators
+[Decorators](#decorators)
+    - Introduction to Decorators
+    - Class Decorators
+    - Method and Property Decorators
 
-- [Working with Third-Party Libraries](#working-with-third-party-libraries)
-  - Using Type Definitions
-  - Install and Configure DefinitelyTyped
+[Working with Third-Party Libraries](#working-with-third-party-libraries)
+    - Using Type Definitions
+    - Install and Configure DefinitelyTyped
 
-- [Tooling and Best Practices](#tooling-and-best-practices)
-  - TypeScript in Build Tools (Webpack, Gulp, etc.)
-  - Linting with TSLint/ESLint
-  - Best Practices for TypeScript Development
+[Tooling and Best Practices](#tooling-and-best-practices)
+    - TypeScript in Build Tools (Webpack, Gulp, etc.)
+    - Linting with TSLint/ESLint
+    - Best Practices for TypeScript Development
 
-- [Testing TypeScript](#testing-typescript)
-  - Unit Testing Frameworks
-  - Writing Tests in TypeScript
+[Testing TypeScript](#testing-typescript)
+    - Unit Testing Frameworks
+    - Writing Tests in TypeScript
+
+---
 
 ## Introduction to TypeScript
 

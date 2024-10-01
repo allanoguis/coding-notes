@@ -1,31 +1,37 @@
-ReactJS Overview
+# ReactJS Overview
 
 ReactJS is a popular JavaScript library for building user interfaces, particularly for single-page applications where a seamless user experience is crucial. It allows developers to create large web applications that can change data without reloading the page.
 
-Table of Contents
-Introduction
-Key Features
-Components
-JSX
-Props and State
-Lifecycle Methods
-Hooks
-React Router
-Conclusion
-Introduction
+## Table of Contents
+
+[Introduction](#introduction)
+[Key Features](#key-features)
+[Components](#components)
+[JSX](#jsx)
+[Props and State](#props-and-state)
+[Lifecycle Methods](#lifecycle-methods)
+[Hooks](#hooks)
+[React Router](#react-router)
+
+---
+
+## Introduction
+
 React was developed by Facebook in 2011 and is maintained by Facebook and a community of individual developers and companies. It is designed for building complex user interfaces in a declarative way, making it easier to manage and update UI components.
 
-Key Features
-Declarative: React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+## Key Features
 
-Component-Based: Build encapsulated components that manage their own state, then compose them to make complex UIs.
+- Declarative: React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
-Learn Once, Write Anywhere: You can develop new features in React without rewriting existing code, and you can use React on the server side as well as in mobile apps.
+- Component-Based: Build encapsulated components that manage their own state, then compose them to make complex UIs.
 
-Components
+- Learn Once, Write Anywhere: You can develop new features in React without rewriting existing code, and you can use React on the server side as well as in mobile apps.
+
+## Components
+
 A component in React is a reusable piece of UI. Components can be either class-based or functional.
 
-Class Components
+### Class Components
 
 ```jsx
 class MyComponent extends React.Component {
@@ -35,7 +41,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-Functional Components
+### Functional Components
 
 ```jsx
 const MyComponent = () => {
@@ -43,7 +49,7 @@ const MyComponent = () => {
 };
 ```
 
-JSX
+## JSX
 
 JSX is a syntax extension to JavaScript that allows you to write HTML-like code within JavaScript. It is used to describe the structure of the UI. JSX is compiled into JavaScript objects that React can understand.
 
@@ -66,7 +72,7 @@ const Greeting = (props) => {
 <Greeting message="Hello, World!" />
 ```
 
-State
+## Props and State
 
 State is a built-in object that is used to contain data or information about the component.
 
@@ -92,7 +98,8 @@ class Counter extends React.Component {
 }
 ```
 
-Lifecycle Methods
+## Lifecycle Methods
+
 React components have a lifecycle that you can monitor and manipulate during their three main phases: Mounting, Updating, and Unmounting.
 
 Some of the commonly used lifecycle methods are:
@@ -101,7 +108,7 @@ Some of the commonly used lifecycle methods are:
 - componentDidUpdate
 - componentWillUnmount
 
-Hooks
+## Hooks
 
 React Hooks are functions that let you use state and lifecycle features in functional components.
 
@@ -122,7 +129,8 @@ const Counter = () => {
 };
 ```
 
-React Router
+## React Router
+
 React Router is a standard routing library for React that enables dynamic routing. It allows for the building of single-page applications with navigation.
 
 Basic Example

@@ -3,18 +3,22 @@
 In React, every component has a lifecycle that can be categorized into three main phases: Mounting, Updating, and Unmounting. Understanding these lifecycle methods is essential for managing side effects, optimizing performance, and ensuring that your application behaves as expected.
 
 ## Table of Contents
-Introduction to Component Lifecycle
-Mounting Phase
-Updating Phase
-Unmounting Phase
-Lifecycle Methods
-Using Lifecycle Methods in Functional Components
-Best Practices
+
+[Introduction to Component Lifecycle](#introduction-to-component-lifecycle)
+[Mounting Phase](#mounting-phase)
+[Updating Phase](#updating-phase)
+[Unmounting Phase](#unmounting-phase)
+[Lifecycle Methods in Functional Components](#lifecycle-methods-in-functional-components)
+[Best Practices](#best-practices)
+
+---
 
 ## Introduction to Component Lifecycle
+
 The lifecycle of a React component refers to the series of methods that are invoked at different stages of a component's existence. These methods allow you to perform actions such as fetching data, setting up subscriptions, or cleaning up resources.
 
 ### Mounting Phase
+
 The mounting phase occurs when a component is being created and inserted into the DOM. The lifecycle methods associated with this phase are:
 
 constructor(props): This is the first method called in the lifecycle. It is used for initializing state and binding methods.

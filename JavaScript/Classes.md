@@ -13,6 +13,8 @@
 7. [Getters and Setters](#getters-and-setters)
 8. [Private Fields and Methods](#private-fields-and-methods)
 
+---
+
 ## Introduction to Classes
 
 Classes in JavaScript provide a more structured way to create objects and handle inheritance. With the introduction of ES6, JavaScript introduced class syntax, which is syntactic sugar over the existing prototype-based inheritance.

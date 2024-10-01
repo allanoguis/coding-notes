@@ -1,5 +1,20 @@
 # React Query Overview
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Basic Usage](#basic-usage)
+  - [Installing React Query](#installing-react-query)
+- [Setup](#setup)
+  - [Fetching Data with useQuery](#fetching-data-with-usequery)
+  - [Mutations with useMutation](#mutations-with-usemutation)
+- [Best Practices](#best-practices)
+
+---
+
+## Introduction
+
 React Query is a powerful library for managing remote data in React applications. It simplifies the process of fetching, caching, synchronizing, and updating server state. Instead of manually managing state for asynchronous operations, React Query provides a set of hooks that make it easier to work with data from APIs, enabling a more declarative style of programming.
 
 ## Key Features
@@ -121,12 +136,11 @@ function AddUser() {
 }
 ```
 
-> [!TIP]
->
-> Best Practices
-> Use Query Keys: Always use unique query keys for different queries to avoid data collisions and ensure proper caching.
-> Error and Loading States: Handle loading and error states to improve user experience.
-> Invalidate on Changes: Invalidate queries after mutations to keep data synchronized.
-> Batch Requests: Use the useQueries or useQuery with dynamic keys for batch fetching.
+## Best Practices
+
+- Use Query Keys: Always use unique query keys for different queries to avoid data collisions and ensure proper caching.
+- Error and Loading States: Handle loading and error states to improve user experience.
+- Invalidate on Changes: Invalidate queries after mutations to keep data synchronized.
+- Batch Requests: Use the useQueries or useQuery with dynamic keys for batch fetching.
 
 [EOF]

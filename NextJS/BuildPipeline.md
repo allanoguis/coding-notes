@@ -16,6 +16,8 @@
 - [Localization and Internationalization](#localization-and-internationalization)
 - [Build Optimization](#build-optimization)
 
+---
+
 ## Introduction
 
 Creating an optimal build pipeline for a Next.js website involves several key steps to ensure efficient development, testing, and deployment. Here’s a comprehensive guide to help you set up an effective pipeline:

@@ -1,18 +1,24 @@
-Using Effect in React
+# Using Effect in React
+
 The useEffect hook is a powerful feature in React that allows functional components to perform side effects, such as data fetching, subscriptions, or manually changing the DOM. It serves as a replacement for lifecycle methods in class components, such as componentDidMount, componentDidUpdate, and componentWillUnmount.
 
-Table of Contents
-Introduction to useEffect
-Basic Usage
-Dependencies Array
-Cleanup Function
-Common Use Cases
-Best Practices
-Conclusion
-Introduction to useEffect
+## Table of Contents
+
+[Introduction to useEffect](#introduction-to-useeffect)
+[Syntax](#syntax)
+[Basic Usage](#basic-usage)
+[Dependencies Array](#dependencies-array)
+[Cleanup Function](#cleanup-function)
+[Common Use Cases](#common-use-cases)
+[Best Practices](#best-practices)
+
+---
+
+## Introduction to useEffect
+
 The useEffect hook allows you to synchronize your component with an external system. By default, it runs after every render, but you can control when it runs based on the dependencies you provide.
 
-Syntax
+## Syntax
 
 ```jsx
 useEffect(() => {
@@ -20,7 +26,7 @@ useEffect(() => {
 }, [dependencies]);
 ```
 
-Basic Usage
+## Basic Usage
 
 To use useEffect, import it from React and call it within your functional component. Here's a straightforward example:
 
@@ -41,7 +47,7 @@ const MyComponent = () => {
 };
 ```
 
-Dependencies Array
+## Dependencies Array
 
 By passing a second argument, known as the dependencies array, you can control when the effect runs:
 
@@ -56,7 +62,8 @@ useEffect(() => {
 }, [count]);
 ```
 
-Cleanup Function
+## Cleanup Function
+
 If your effect returns a function, React will run it before running the effect again or when the component is unmounted. This cleanup is crucial for preventing memory leaks, especially in cases like subscriptions or timers.
 
 Example:
@@ -74,7 +81,7 @@ useEffect(() => {
 }, []);
 ```
 
-Common Use Cases
+## Common Use Cases
 
 - Fetching Data: Perform data fetching when a component mounts or when certain variables change.
 
@@ -104,10 +111,13 @@ useEffect(() => {
 }, []);
 ```
 
-Animation on State Change: Trigger animations when state changes.
+- Animation on State Change: Trigger animations when state changes.
 
-Best Practices
-Keep Effects Focused: Each useEffect should ideally handle a single side effect.
-Avoid Complex Logic in Effects: If you have non-trivial logic, consider extracting it into a separate function.
-Dependencies Management: Always make sure to include all variables and props in the dependencies array that your effect uses.
-Avoid Async Function Directly: If you need to use async functions inside useEffect, define an async function inside the effect and call it.
+## Best Practices
+
+- Keep Effects Focused: Each useEffect should ideally handle a single side effect.
+- Avoid Complex Logic in Effects: If you have non-trivial logic, consider extracting it into a separate function.
+- Dependencies Management: Always make sure to include all variables and props in the dependencies array that your effect uses.
+- Avoid Async Function Directly: If you need to use async functions inside useEffect, define an async function inside the effect and call it.
+
+[EOF]

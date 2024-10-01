@@ -2,15 +2,17 @@
 
 ## Table of Contents
 
-1. [Introduction to Strings](#introduction-to-strings)
-2. [String Declaration](#string-declaration)
-   - [Template Literals](#template-literals)
-3. [String Methods](#string-methods)
-   - [Common String Methods](#common-string-methods)
-   - [ES6+ String Methods](#es6-string-methods)
-4. [String Properties](#string-properties)
-5. [String Concatenation](#string-concatenation)
-6. [String Comparison](#string-comparison)
+[Introduction to Strings](#introduction-to-strings)
+[String Declaration](#string-declaration)
+      - [Template Literals](#template-literals)
+[String Methods](#string-methods)
+    - [Common String Methods](#common-string-methods)
+    - [ES6+ String Methods](#es6-string-methods)
+[String Properties](#string-properties)
+[String Concatenation](#string-concatenation)
+[String Comparison](#string-comparison)
+
+---
 
 ## Introduction to Strings
 

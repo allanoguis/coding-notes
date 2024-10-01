@@ -14,6 +14,8 @@
 6. [Array Spread Operator](#array-spread-operator)
 7. [Array Iteration with `for...of`](#array-iteration-with-forof)
 
+---
+
 ## Introduction to Arrays
 
 Arrays are a fundamental data structure in JavaScript used to store multiple values in a single variable. With the introduction of ES6, JavaScript added several new features and methods to make array manipulation more powerful and flexible.

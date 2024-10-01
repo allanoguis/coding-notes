@@ -4,19 +4,21 @@ JSON (JavaScript Object Notation) is a lightweight data interchange format. In J
 
 ## Table of Contents
 
-1. [What is JSON?](#what-is-json)
-2. [Parsing JSON in JavaScript](#parsing-json-in-javascript)
-   - [Common Use Case: Parsing JSON from APIs](#common-use-case-parsing-json-from-apis)
-3. [Stringifying JavaScript Objects](#stringifying-javascript-objects)
-   - [Pretty Print JSON](#pretty-print-json)
-4. [Working with Fetch and JSON](#working-with-fetch-and-json)
-   - [Fetching JSON Data](#fetching-json-data)
-5. [ES6+ Enhancements for JSON Handling](#es6-enhancements-for-json-handling)
-   - [Object Destructuring](#object-destructuring)
-   - [Spread Operator](#spread-operator)
-   - [Template Literals for JSON](#template-literals-for-json)
-6. [Error Handling in JSON Parsing](#error-handling-in-json-parsing)
-   - [Gracefully Handling Errors in Fetch Requests](#gracefully-handling-errors-in-fetch-requests)
+[What is JSON?](#what-is-json)
+[Parsing JSON in JavaScript](#parsing-json-in-javascript)
+    - [Common Use Case: Parsing JSON from APIs](#common-use-case-parsing-json-from-apis)
+[Stringifying JavaScript Objects](#stringifying-javascript-objects)
+    - [Pretty Print JSON](#pretty-print-json)
+[Working with Fetch and JSON](#working-with-fetch-and-json)
+    - [Fetching JSON Data](#fetching-json-data)
+[ES6+ Enhancements for JSON Handling](#es6-enhancements-for-json-handling)
+    - [Object Destructuring](#object-destructuring)
+    - [Spread Operator](#spread-operator)
+    - [Template Literals for JSON](#template-literals-for-json)
+[Error Handling in JSON Parsing](#error-handling-in-json-parsing)
+    - [Gracefully Handling Errors in Fetch Requests](#gracefully-handling-errors-in-fetch-requests)
+
+---
 
 ## What is JSON?
 

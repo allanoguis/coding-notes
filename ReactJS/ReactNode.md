@@ -2,22 +2,24 @@
 
 ## Table of Contents
 
-1. [React Nodes Overview](#react-nodes-overview)
-2. [Types of React Nodes](#types-of-react-nodes)
+[React Nodes Overview](#react-nodes-overview)
+[Types of React Nodes](#types-of-react-nodes)
     - [Primitive Nodes](#primitive-nodes)
     - [Element Nodes](#element-nodes)
     - [Component Nodes](#component-nodes)
     - [Fragments](#fragments)
 
-3. [Rendering Nodes](#rendering-nodes)
+[Rendering Nodes](#rendering-nodes)
     - [React Elements](#react-elements)
 
-4. [Composition of Nodes](#composition-of-nodes)
-5. [Important Concepts Related to React Nodes](#important-concepts-related-to-react-nodes)
+[Composition of Nodes](#composition-of-nodes)
+[Important Concepts Related to React Nodes](#important-concepts-related-to-react-nodes)
     - [Keys](#keys)
     - [Children](#children)
     - [Conditional Rendering](#conditional-rendering)
     - [Portals](#portals)
+
+---
 
 ## React Nodes Overview
 

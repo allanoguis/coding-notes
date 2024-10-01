@@ -45,29 +45,34 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 ## React JS
 
 - [React JS Documentation](ReactJS/ReactJS-Documentation.md)
-- [React JS Components](ReactJS/ReactJS-Components.md)
+- [React JS Components](ReactJS/ReactJS-Components.md) //TODO: 
 - [React JS Hooks](ReactJS/ReactJS-Hooks.md)
-- [React JS Styling](ReactJS/ReactJS-Styling.md)
-- [React JS Forms](ReactJS/ReactJS-Forms.md)
-- [React JS Routing](ReactJS/ReactJS-Routing.md)
-- [React JS State Management](ReactJS/ReactJS-State-Management.md)
-- [React JS Testing](ReactJS/ReactJS-Testing.md)
-- [React JS Deployment](ReactJS/ReactJS-Deployment.md)
+- [React JS Styling](ReactJS/ReactJS-Styling.md) //TODO: 
+- [React JS Forms](ReactJS/ReactJS-Forms.md) //TODO: 
+- [React JS Routing](ReactJS/ReactJS-Routing.md) //TODO: 
+- [React JS Query](ReactJS/ReactJS-Query.md)
+- [React JS State](ReactJS/ReactJS-useState.md)
+- [React JS UseEffect](ReactJS/ReactJS-useEffect.md)
+- [React JS Use Context](ReactJS/ReactJS-useContext.md)
+- [React JS State Management](ReactJS/ReactJS-State-Management.md) //TODO: 
+- [React JS Testing](ReactJS/ReactJS-Testing.md) //TODO: 
+- [React JS Deployment](ReactJS/ReactJS-Deployment.md) //TODO: 
 
-## Next JS
+## Next JS //TODO: update
 
 - [Next JS Build Pipeline](NextJS/BuildPipeline.md)
 - [Next JS API Routes](NextJS/APIRoutes.md)
 - [Next JS Authentication](NextJS/Authentication.md)
 - [Next JS Data Fetching](NextJS/DataFetching.md)
 - [Next JS Deployment](NextJS/Deployment.md)
+- [Next JS Folder Structures](NextJS/FolderStructures.md)
 - [Next JS Internationalization](NextJS/Internationalization.md)
+- [Next JS Metadata](NextJS/Metadata.md)
+- [Next JS Performance](NextJS/Performance.md)
 - [Next JS Static Generation](NextJS/StaticGeneration.md)
 - [Next JS Testing](NextJS/Testing.md)
 
-## Node JS
-
-//TODO: Add Node JS Documentation
+## Node JS //TODO: Add Node JS Documentation
 - [Introduction to Node.js](#introduction-to-nodejs)
 - [Features of Node.js](#features-of-nodejs)
 - [Setting Up Node.js Environment](#setting-up-nodejs-environment)

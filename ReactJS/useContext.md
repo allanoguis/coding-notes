@@ -1,18 +1,26 @@
-Using Context in React
+# Using Context in React
+
 React Context is a powerful feature that allows you to share values between components without having to explicitly pass props through every level of the component tree. This is particularly useful for global data management, such as themes, user authentication, and settings.
 
-Table of Contents
-Introduction to Context
-Creating a Context
-Providing Context
-Consuming Context
-Using Context with Functional Components
-Best Practices
-Conclusion
-Introduction to Context
+## Table of Contents
+
+[Introduction to Context](#introduction-to-context)
+[Creating a Context](#creating-a-context)
+[Providing Context](#providing-context)
+[Consuming Context](#consuming-context)
+    - [Using useContext Hook](#using-usecontext-hook)
+    - [Using Context.Consumer](#using-contextconsumer)
+    - [Using Context with Functional Components](#using-context-with-functional-components)
+[Best Practices](#best-practices)
+
+---
+
+## Introduction to Context
+
 Context provides a way to pass data through the component tree without having to pass props down manually at every level. It is primarily useful for sharing information that is considered "global" for a tree of React components, such as theme settings or user data.
 
-Creating a Context
+## Creating a Context
+
 First, you need to create a Context object using the createContext API. This returns an object with a Provider and a Consumer.
 
 Example:
@@ -23,7 +31,7 @@ import React, { createContext } from 'react';
 const MyContext = createContext();
 ```
 
-Providing Context
+## Providing Context
 
 To supply the context value to components, wrap the part of your component tree that needs access in a Provider and pass the value you want to share.
 
@@ -41,11 +49,11 @@ const App = () => {
 };
 ```
 
-Consuming Context
+## Consuming Context
 
 There are two main ways to consume context in a functional component: using the useContext hook or the Consumer component.
 
-Using useContext Hook
+### Using useContext Hook
 
 The useContext hook allows you to access the context value directly without needing to nest components.
 
@@ -59,7 +67,7 @@ const ChildComponent = () => {
 };
 ```
 
-Using Context.Consumer
+### Using Context.Consumer
 
 Alternatively, you can use the Consumer component to consume the context.
 
@@ -73,7 +81,7 @@ const ChildComponent = () => {
 };
 ```
 
-Using Context with Functional Components
+### Using Context with Functional Components
 
 The useContext hook is typically the preferred method in functional components, as it simplifies syntax and reduces nesting.
 
@@ -106,7 +114,7 @@ const ChildComponent = () => {
 export default App;
 ```
 
-Best Practices
+## Best Practices
 
 Scope Context Appropriately: Define context at the right level; don't create context for every small piece of data unless it’s truly global.
 
@@ -117,3 +125,5 @@ Memoize Values: If the context value depends on calculations or state, consider 
 Combine with Other Hooks: You can use context together with local component state and other hooks for more complex scenarios.
 
 Use Descriptive Naming: Give your context and provider descriptive names to make the code easier to understand.
+
+[EOF]

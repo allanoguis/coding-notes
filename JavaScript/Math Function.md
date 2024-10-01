@@ -7,6 +7,8 @@
 3. [ES6+ Math Functions](#es6-math-functions)
 4. [Examples](#examples)
 
+---
+
 ## Introduction to Math Functions
 
 The `Math` object in JavaScript provides a collection of built-in functions and constants for performing mathematical operations. With the introduction of ES6, JavaScript added several new features and methods to the `Math` object, making it more powerful and flexible.

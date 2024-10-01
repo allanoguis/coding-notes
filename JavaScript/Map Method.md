@@ -16,6 +16,8 @@
     - [Generating HTML Elements](#generating-html-elements)
     - [Combining with Other Methods](#combining-with-other-methods)
 
+---
+
 ## Introduction to the .map() Method
 
 The `.map()` method is a powerful array method in JavaScript that creates a new array with the results of calling a provided function on every element in the calling array. It is a non-mutating method, meaning it does not alter the original array.

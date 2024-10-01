@@ -2,25 +2,27 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [What are Getters and Setters?](#what-are-getters-and-setters)
-3. [Syntax for Getters and Setters](#syntax-for-getters-and-setters)
+[Introduction](#introduction)
+[What are Getters and Setters?](#what-are-getters-and-setters)
+[Syntax for Getters and Setters](#syntax-for-getters-and-setters)
     - [Getter Syntax](#getter-syntax)
     - [Setter Syntax](#setter-syntax)
-4. [Advantages of Getters and Setters](#advantages-of-getters-and-setters)
+[Advantages of Getters and Setters](#advantages-of-getters-and-setters)
     - [Encapsulation](#encapsulation)
     - [Validation](#validation)
     - [Lazy Computation](#lazy-computation)
-5. [Examples](#examples)
+[Examples](#examples)
     - [Customizing Property Access](#customizing-property-access)
     - [Computed Properties](#computed-properties)
         - [Use Cases](#use-cases)
             - [Dynamic Key Assignment](#dynamic-key-assignment)
             - [Using Expressions](#using-expressions)
             - [In Function Parameters](#in-function-parameters)
-6. [ES6+ Classes with Getters and Setters](#es6-classes-with-getters-and-setters)
+[ES6+ Classes with Getters and Setters](#es6-classes-with-getters-and-setters)
     - [Example: Class with Getters and Setters](#example-class-with-getters-and-setters)
         - [Example: Class with Private Properties](#example-class-with-private-properties)
+
+---
 
 ## Introduction
 

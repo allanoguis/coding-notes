@@ -2,23 +2,25 @@
 
 ## Table of Contents
 
-1. [Introduction to the DOM](#introduction-to-the-dom)
-2. [Accessing DOM Elements](#accessing-dom-elements)
-   - [Selecting Elements](#selecting-elements)
-   - [Traversing the DOM](#traversing-the-dom)
-3. [Manipulating DOM Elements](#manipulating-dom-elements)
-   - [Creating and Appending Elements](#creating-and-appending-elements)
-   - [Modifying Element Content](#modifying-element-content)
-   - [Modifying Element Attributes](#modifying-element-attributes)
-   - [Styling Elements](#styling-elements)
-4. [Event Handling](#event-handling)
-   - [Adding Event Listeners](#adding-event-listeners)
-   - [Event Object](#event-object)
-5. [ES6+ Features in DOM Manipulation](#es6-features-in-dom-manipulation)
-   - [Arrow Functions](#arrow-functions)
-   - [Template Literals](#template-literals)
-   - [Destructuring](#destructuring)
-   - [Promises and Async/Await](#promises-and-asyncawait)
+[Introduction to the DOM](#introduction-to-the-dom)
+[Accessing DOM Elements](#accessing-dom-elements)
+      - [Selecting Elements](#selecting-elements)
+      - [Traversing the DOM](#traversing-the-dom)
+[Manipulating DOM Elements](#manipulating-dom-elements)
+      - [Creating and Appending Elements](#creating-and-appending-elements)
+      - [Modifying Element Content](#modifying-element-content)
+      - [Modifying Element Attributes](#modifying-element-attributes)
+      - [Styling Elements](#styling-elements)
+[Event Handling](#event-handling)
+      - [Adding Event Listeners](#adding-event-listeners)
+      - [Event Object](#event-object)
+[ES6+ Features in DOM Manipulation](#es6-features-in-dom-manipulation)
+      - [Arrow Functions](#arrow-functions)
+      - [Template Literals](#template-literals)
+      - [Destructuring](#destructuring)
+      - [Promises and Async/Await](#promises-and-asyncawait)
+
+---
 
 ## Introduction to the DOM
 

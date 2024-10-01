@@ -13,6 +13,8 @@ JavaScript is a single-threaded, non-blocking language, which means that it can 
    - Promises
    - Async/Await
 
+---
+
 ## Timing Mechanisms
 
 JavaScript provides several built-in functions for managing timing events.

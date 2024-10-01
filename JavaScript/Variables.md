@@ -2,19 +2,21 @@
 
 ## Table of Contents
 
-1. [Introduction to Variables](#introduction-to-variables)
-2. [Variable Declaration](#variable-declaration)
-   - [var](#var)
-   - [let](#let)
-   - [const](#const)
-3. [Scope](#scope)
-   - [Global Scope](#global-scope)
-   - [Function Scope](#function-scope)
-   - [Block Scope](#block-scope)
-4. [Hoisting](#hoisting)
-5. [Data Types](#data-types)
-6. [Type Coercion](#type-coercion)
-7. [Variable Naming Conventions](#variable-naming-conventions)
+[Introduction to Variables](#introduction-to-variables)
+[Variable Declaration](#variable-declaration)
+    - [var](#var)
+    - [let](#let)
+    - [const](#const)
+[Scope](#scope)
+    - [Global Scope](#global-scope)
+    - [Function Scope](#function-scope)
+    - [Block Scope](#block-scope)
+[Hoisting](#hoisting)
+[Data Types](#data-types)
+[Type Coercion](#type-coercion)
+[Variable Naming Conventions](#variable-naming-conventions)
+
+---
 
 ## Introduction to Variables
 

@@ -2,19 +2,21 @@
 
 ## Table of Contents
 
-1. [Introduction to Regular Expressions](#introduction-to-regular-expressions)
-2. [Creating Regular Expressions](#creating-regular-expressions)
-3. [Regular Expression Methods](#regular-expression-methods)
-4. [Regular Expression Syntax](#regular-expression-syntax)
+[Introduction to Regular Expressions](#introduction-to-regular-expressions)
+[Creating Regular Expressions](#creating-regular-expressions)
+[Regular Expression Methods](#regular-expression-methods)
+[Regular Expression Syntax](#regular-expression-syntax)
     - [Basic Characters](#basic-characters)
     - [Quantifiers](#quantifiers)
     - [Special Characters](#special-characters)
     - [Groups and Capturing](#groups-and-capturing)
     - [Flags](#flags)
-5. [Examples](#examples)
+[Examples](#examples)
     - [Email Validation](#email-validation)
     - [URL Validation](#url-validation)
     - [Date Validation (YYYY-MM-DD)](#date-validation-yyyy-mm-dd)
+
+---
 
 ## Introduction to Regular Expressions
 
