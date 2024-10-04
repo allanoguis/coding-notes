@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-[Introduction to Constructors](#introduction-to-constructors)
-[Constructor Functions](#constructor-functions)
-[ES6+ Class Syntax](#es6-class-syntax)
+1. [Introduction to Constructors](#introduction-to-constructors)
+2. [Constructor Functions](#constructor-functions)
+3. [ES6+ Class Syntax](#es6-class-syntax)
     - [ES6+ Example](#es6-example)
-[Inheritance](#inheritance)
+4. [Inheritance](#inheritance)
     - [Inheritance Example](#inheritance-example)
-[Static Methods](#static-methods)
+5. [Static Methods](#static-methods)
     - [Static Methods Example](#static-methods-example)
-[Private Fields and Methods](#private-fields-and-methods)
+6. [Private Fields and Methods](#private-fields-and-methods)
     - [Private Fields and Methods Example](#private-fields-and-methods-example)
 
 ---

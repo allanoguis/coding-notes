@@ -11,6 +11,7 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 - [Callbacks](JavaScript/Callbacks.md)
 - [Classes](JavaScript/Classes.md)
 - [Constructors](JavaScript/Constructors.md)
+- [Design Patterns](<JavaScript/Design Patterns.md>)
 - [Destructuring](JavaScript/Destructuring.md)
 - [DOM](JavaScript/DOM.md)
 - [Getters and Setters](<JavaScript/Getters and Setters.md>)
@@ -25,8 +26,8 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 
 ## TypeScript
 
-- [TypeScript Documentation](TypeScript/TypeScript-Documentation.md)
-- [TypeScript vs JacaScript](TypeScript/TypeScript-vs-JacaScript.md)
+- [TypeScript Documentation](<TypeScript/TypeScript Documentation.md>)
+- [TypeScript vs JacaScript](<TypeScript/TypeScript vs JacaScript.md>)
 - [Introduction to TypeScript](TypeScript/TypeScript-Documentation.md/#introduction-to-typescript)
 - [Getting Started](TypeScript/TypeScript-Documentation.md/#getting-started)
 - [Basic Types](Typescript/TypeScript-Documentation.md/#basic-types)
