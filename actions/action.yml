@@ -1,0 +1,6 @@
+name: 'First-Greeting'
+description: 'First Greeting to users'
+inputs: 
+  name: First interaction
+  uses: actions/first-interaction@v1.3.0
+            
