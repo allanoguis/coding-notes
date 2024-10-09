@@ -1,3 +1,8 @@
+
+![Hacktoberfest](https://github.com/user-attachments/assets/460757a4-ff0e-467c-8445-40e04441fd66)
+
+***Open Source for sharing notes***
+
 # Main Library
 
 ## Framer Motion
