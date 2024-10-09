@@ -3,6 +3,13 @@
 
 ***Open Source for sharing notes***
 
+---
+
+Read more:
+[Contributing.md](/Contributing.md)
+
+---
+
 # Main Library
 
 ## Framer Motion
