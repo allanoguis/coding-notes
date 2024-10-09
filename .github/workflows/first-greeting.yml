@@ -31,7 +31,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Add HTML to greetings
         run: |
-          echo <h1> Give us a star if you haven't yet </h1> >>  $GITHUB_STEP_SUMMARY
-          echo '<a class="github-button" href="https://github.com/allanoguis/coding-notes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star your-username/your-repo on GitHub">Star</a>'
-          >> $GITHUB_STEP_SUMMARY
+          echo <h1> Give us a star if you haven't yet </h1> >> $GITHUB_STEP_SUMMARY
+          echo '<a class="github-button" href="https://github.com/allanoguis/coding-notes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star your-username/your-repo on GitHub">Star</a>' >> $GITHUB_STEP_SUMMARY
           echo '<script async defer src="https://buttons.github.io/buttons.js"></script>' >> $GITHUB_STEP_SUMMARY
