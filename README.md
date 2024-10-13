@@ -57,19 +57,19 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 
 ## React JS
 
-- [React JS Documentation](ReactJS/ReactJS-Documentation.md)
-- [React JS Components](ReactJS/ReactJS-Components.md) 
-- [React JS Hooks](ReactJS/ReactJS-Hooks.md)
-- [React JS Styling](ReactJS/ReactJS-Styling.md) 
-- [React JS Forms](ReactJS/ReactJS-Forms.md) 
-- [React JS Routing](ReactJS/ReactJS-Routing.md) 
-- [React JS Query](ReactJS/ReactJS-Query.md)
-- [React JS State](ReactJS/ReactJS-useState.md)
-- [React JS UseEffect](ReactJS/ReactJS-useEffect.md)
-- [React JS Use Context](ReactJS/ReactJS-useContext.md)
-- [React JS State Management](ReactJS/ReactJS-State-Management.md) 
-- [React JS Testing](ReactJS/ReactJS-Testing.md) 
-- [React JS Deployment](ReactJS/ReactJS-Deployment.md)  
+- [React JS Documentation](ReactJS/React-Documentation.md)
+- [React JS Components](ReactJS/React-Documentation.md) 
+- [React JS Hooks](ReactJS/React-Documentation.md)
+- [React JS Styling](ReactJS/styling.md) 
+- [React JS Forms](ReactJS/forms.md) 
+- [React JS Routing](ReactJS/routing.md) 
+- [React JS Query](<ReactJS/React Query.md>)
+- [React JS State](ReactJS/useState.md)
+- [React JS UseEffect](ReactJS/UseEffect.md)
+- [React JS Use Context](ReactJS/useContext.md)
+- [React JS State Management](ReactJS/stateManagement.md) 
+- [React JS Testing](ReactJS/testing.md) 
+- [React JS Deployment](ReactJS/deployment.md)  
 
 ## Next JS //TODO: update
 
