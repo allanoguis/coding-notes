@@ -58,18 +58,18 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 ## React JS
 
 - [React JS Documentation](ReactJS/ReactJS-Documentation.md)
-- [React JS Components](ReactJS/ReactJS-Components.md) //TODO: 
+- [React JS Components](ReactJS/ReactJS-Components.md) 
 - [React JS Hooks](ReactJS/ReactJS-Hooks.md)
-- [React JS Styling](ReactJS/ReactJS-Styling.md) //TODO: 
-- [React JS Forms](ReactJS/ReactJS-Forms.md) //TODO: 
-- [React JS Routing](ReactJS/ReactJS-Routing.md) //TODO: 
+- [React JS Styling](ReactJS/ReactJS-Styling.md) 
+- [React JS Forms](ReactJS/ReactJS-Forms.md) 
+- [React JS Routing](ReactJS/ReactJS-Routing.md) 
 - [React JS Query](ReactJS/ReactJS-Query.md)
 - [React JS State](ReactJS/ReactJS-useState.md)
 - [React JS UseEffect](ReactJS/ReactJS-useEffect.md)
 - [React JS Use Context](ReactJS/ReactJS-useContext.md)
-- [React JS State Management](ReactJS/ReactJS-State-Management.md) //TODO: 
-- [React JS Testing](ReactJS/ReactJS-Testing.md) //TODO: 
-- [React JS Deployment](ReactJS/ReactJS-Deployment.md) //TODO: 
+- [React JS State Management](ReactJS/ReactJS-State-Management.md) 
+- [React JS Testing](ReactJS/ReactJS-Testing.md) 
+- [React JS Deployment](ReactJS/ReactJS-Deployment.md)  
 
 ## Next JS //TODO: update
 
