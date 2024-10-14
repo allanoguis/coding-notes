@@ -1,17 +1,5 @@
-***Open Source for sharing notes***
-
----
-
-Read more:
-[Contributing.md](/Contributing.md)
-
----
-
-# Main Library
-
-## Framer Motion
-
-Site Reference: <https://www.framer.com/motion/introduction/>
+# Overview
+An open source repository for coding notes. 
 
 ## Javascript
 
@@ -81,35 +69,6 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 - [Next JS Performance](NextJS/Performance.md)
 - [Next JS Static Generation](NextJS/StaticGeneration.md)
 - [Next JS Testing](NextJS/Testing.md)
-
-
-## Node JS //TODO: Add Node JS Documentation
-- [Introduction to Node.js](#introduction-to-nodejs)
-- [Features of Node.js](#features-of-nodejs)
-- [Setting Up Node.js Environment](#setting-up-nodejs-environment)
-    - [Installation](#installation)
-    - [Using Node Version Manager (NVM)](#using-node-version-manager-nvm)
-- [Node.js Architecture](#nodejs-architecture)
-- [Core Modules in Node.js](#core-modules-in-nodejs)
-    - [HTTP Module](#http-module)
-    - [File System Module](#file-system-module)
-    - [Path Module](#path-module)
-    - [Event Module](#event-module)
-- [NPM (Node Package Manager)](#npm-node-package-manager)
-    - [Installing Packages](#installing-packages)
-    - [Managing Packages](#managing-packages)
-- [Creating a Simple Web Server](#creating-a-simple-web-server)
-- [Asynchronous Programming in Node.js](#asynchronous-programming-in-nodejs)
-    - [Callbacks](#callbacks)
-    - [Promises](#promises)
-    - [Async/Await](#asyncawait)
-- [Building RESTful APIs with Node.js](#building-restful-apis-with-nodejs)
-- [Error Handling in Node.js](#error-handling-in-nodejs)
-- [Testing in Node.js](#testing-in-nodejs)
-- [Deployment of Node.js Applications](#deployment-of-nodejs-applications)
-    - [Using PM2](#using-pm2)
-    - [Containerization with Docker](#containerization-with-docker)
-- [Best Practices for Node.js Development](#best-practices-for-nodejs-development)
 
 ## Angular
 
@@ -192,3 +151,11 @@ Site Reference: <https://www.framer.com/motion/introduction/>
     - [Containerization with Docker](NodeJS/deployment.md#2-containerization-with-docker)
 - [Best Practices for Node.js Development](NodeJS/best_practices.md)
 
+---
+
+## Want to Contribute? 
+Check the [Contributor's Guideline](/Contributing.md).
+
+---
+
+Site Reference: <https://www.framer.com/motion/introduction/>
