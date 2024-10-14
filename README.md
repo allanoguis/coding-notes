@@ -1,6 +1,3 @@
-
-![Hacktoberfest](https://github.com/user-attachments/assets/460757a4-ff0e-467c-8445-40e04441fd66)
-
 ***Open Source for sharing notes***
 
 ---
@@ -85,6 +82,7 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 - [Next JS Static Generation](NextJS/StaticGeneration.md)
 - [Next JS Testing](NextJS/Testing.md)
 
+
 ## Node JS //TODO: Add Node JS Documentation
 - [Introduction to Node.js](#introduction-to-nodejs)
 - [Features of Node.js](#features-of-nodejs)
@@ -165,3 +163,32 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 - [Angular Universal for SSR](<AngularJS/Angular Universal for SSR.md>)
     - [Introduction to Server-Side Rendering](<AngularJS/Angular Universal for SSR.md/#introduction-to-server-side-rendering>)
     - [Setting Up Angular Universal](<AngularJS/Angular Universal for SSR.md/#setting-up-angular-universal>)
+
+## Node JS
+- [Introduction to Node.js](NodeJS/introduction.md)
+- [Features of Node.js](NodeJS/features.md)
+- [Setting Up Node.js Environment](NodeJS/setup.md)
+    - [Installation](NodeJS/setup.md#direct-installation)
+    - [Using Node Version Manager (NVM)](NodeJS/setup.md#using-node-version-manager-nvm)
+- [Node.js Architecture](NodeJS/architecture.md)
+- [Core Modules in Node.js](NodeJS/core_modules.md)
+    - [HTTP Module](NodeJS/core_modules.md#1-http-module)
+    - [File System Module (fs)](NodeJS/core_modules.md#2-file-system-module-fs)
+    - [Path Module](NodeJS/core_modules.md#3-path-module)
+    - [Events Module](NodeJS/core_modules.md#4-events-module)
+- [NPM (Node Package Manager)](NodeJS/npm.md)
+    - [Installing Packages](NodeJS/npm.md#installing-a-package-locally)
+    - [Managing Packages](NodeJS/npm.md#managing-packages-with-npm)
+- [Creating a Simple Web Server](NodeJS/web_server.md)
+- [Asynchronous Programming in Node.js](NodeJS/async_programming.md)
+    - [Callbacks](NodeJS/async_programming.md#callbacks)
+    - [Promises](NodeJS/async_programming.md#promises)
+    - [Async/Await](NodeJS/async_programming.md#asyncawait)
+- [Building RESTful APIs with Node.js](NodeJS/restful_apis.md)
+- [Error Handling in Node.js](NodeJS/error_handling.md)
+- [Testing in Node.js](NodeJS/testing.md)
+- [Deployment of Node.js Applications](NodeJS/deployment.md)
+    - [Using PM2](NodeJS/deployment.md#1-using-pm2)
+    - [Containerization with Docker](NodeJS/deployment.md#2-containerization-with-docker)
+- [Best Practices for Node.js Development](NodeJS/best_practices.md)
+
