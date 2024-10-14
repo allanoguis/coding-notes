@@ -1,5 +1,3 @@
-# Coding Notes
-
 # Overview
 An open source repository for coding notes. 
 
