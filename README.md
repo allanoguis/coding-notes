@@ -1,5 +1,5 @@
 # Overview
-An open source repository for coding notes. 
+An open source repository for coding notes of puplar languages like Javascript,TypeScript,React Js,Next Js,Angular Js,Node Js. 
 
 ## Javascript
 
@@ -153,9 +153,9 @@ An open source repository for coding notes.
 
 ---
 
-## Want to Contribute? 
-Check the [Contributor's Guideline](/Contributing.md).
+Site Reference: <https://www.framer.com/motion/introduction/>
 
 ---
 
-Site Reference: <https://www.framer.com/motion/introduction/>
+## Want to Contribute? then why wait :)
+Check the [Contributor's Guideline](/Contributing.md).
