@@ -1,47 +1,25 @@
 # Overview
 An open source repository for coding notes of puplar languages like Javascript,TypeScript,React Js,Next Js,Angular Js,Node Js. 
 
-## Table of Contents
+## Javascript
 
-- [Python](#python)
-- [JavaScript](#javascript)
-- [TypeScript](#typescript)
-- [React JS](#react-js)
-- [Next JS](#next-js)
-- [Angular](#angular)
-- [Node JS](#node-js)
-
----
-
-## Python 
-
-- [Variables and Data Types](<Python/Variables and Data Types.md>)
-- [Basic Operators](<Python/Basic Operators.md>)
-- [String Manipulation](<Python/String Manipulation.md>)
-- [Sequence Types](<Python/Sequence Types.md>)
-- [Mapping and Set Types](<Python/Mapping and Set Types.md>)
-- [Control Flow](<Python/Control Flow.md>)
-- [Loops](Python/Loops.md)
-
-## JavaScript
-
-- [Variables](JavaScript/Variables.md)
-- [Strings](JavaScript/Strings.md)
 - [Arrays](JavaScript/Arrays.md)
-- [Objects](JavaScript/Objects.md)
-- [Math Function](<JavaScript/Math Function.md>)
-- [JSON Handling](<JavaScript/JSON Handling.md>)
-- [DOM](JavaScript/DOM.md)
 - [Arrow Function](<JavaScript/Arrow Function.md>)
-- [Map Method](<JavaScript/Map Method.md>)
-- [Destructuring](JavaScript/Destructuring.md)
 - [Callbacks](JavaScript/Callbacks.md)
-- [Timing and Asynchronous Operations](<JavaScript/Timing and Asynchronous Operations.md>)
-- [Regular Expressions - RegEx](<JavaScript/Regular Expressions - RegEx.md>)
 - [Classes](JavaScript/Classes.md)
 - [Constructors](JavaScript/Constructors.md)
-- [Getters and Setters](<JavaScript/Getters and Setters.md>)
 - [Design Patterns](<JavaScript/Design Patterns.md>)
+- [Destructuring](JavaScript/Destructuring.md)
+- [DOM](JavaScript/DOM.md)
+- [Getters and Setters](<JavaScript/Getters and Setters.md>)
+- [JSON Handling](<JavaScript/JSON Handling.md>)
+- [Map Method](<JavaScript/Map Method.md>)
+- [Math Function](<JavaScript/Math Function.md>)
+- [Objects](JavaScript/Objects.md)
+- [Regular Expressions - RegEx](<JavaScript/Regular Expressions - RegEx.md>)
+- [Strings](JavaScript/Strings.md)
+- [Timing and Asynchronous Operations](<JavaScript/Timing and Asynchronous Operations.md>)
+- [Variables](JavaScript/Variables.md)
 
 ## TypeScript
 
@@ -78,7 +56,7 @@ An open source repository for coding notes of puplar languages like Javascript,T
 - [React JS Testing](ReactJS/testing.md) 
 - [React JS Deployment](ReactJS/deployment.md)  
 
-## Next JS
+## Next JS //TODO: update
 
 - [Next JS Build Pipeline](NextJS/BuildPipeline.md)
 - [Next JS API Routes](NextJS/APIRoutes.md)
@@ -179,5 +157,5 @@ Site Reference: <https://www.framer.com/motion/introduction/>
 
 ---
 
-## Want to Contribute?
-Check out the [Contributor's Guideline](/Contributing.md).
+## Want to Contribute? then why wait :)
+Check the [Contributor's Guideline](/Contributing.md).
