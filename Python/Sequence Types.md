@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- **[Lists and Tuples](#defining-lists-and-tuples)**
+- **[Lists and Tuples](#lists-and-tuples)**
 - **[Indexing, Slicing and Iterating](#indexing-slicing-and-iterating)**
   - **[Indexing](#indexing)**
   - **[Slicing](#slicing)**
